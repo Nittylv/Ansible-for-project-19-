@@ -43,6 +43,11 @@
     extra_args: --upgrade
 
 
+- name:   update_cache:true
+
+
+
+
 - name: install pip dependencies
   pip:
     name:  psycopg2
